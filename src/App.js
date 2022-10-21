@@ -33,12 +33,12 @@ function App() {
       setLoading(false)
     };
     getPosts();
-  }, [postsCollectRef])
+  }, [])
 
   if (loading) {
     return (
       <div className="loading">
-        <h5>Relax techie, just a sec</h5>
+        <h5>Relax techie, just a sec &#128526;</h5>
         <div id="loading"></div>
       </div>
     )

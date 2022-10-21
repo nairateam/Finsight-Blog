@@ -2,14 +2,14 @@
    const testimonies = [
         {
             "id": "1",
-            "Message": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-            "Name": "Yemi Ajana",
+            "Message": "This a very great and brilliant work, hoepfully it turns into a real and live website.",
+            "Name": "Lazy Dev",
             "Image": "https://images.pexels.com/photos/6205509/pexels-photo-6205509.jpeg",
             "Location": "Lagos, Nigeria"
         },
         {
             "id": "2",
-            "Message": "All these reviews are dummy datas, I would be updating this section soon.",
+            "Message": "A thoughtful project, would update this section later too.",
             "Name": "Tope Felix",
             "Image": "https://images.pexels.com/photos/5704849/pexels-photo-5704849.jpeg",
             "Location": "Ibadan, Nigeria"

@@ -1,5 +1,5 @@
 import './Sections.css'
-import startBg from '../../assets/IMAGES/slit.svg'
+// import startBg from '../../assets/IMAGES/slit.svg'
 import Btn from '../Ui/Button';
 
 const Start = () => {

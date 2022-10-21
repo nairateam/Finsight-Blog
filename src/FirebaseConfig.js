@@ -9,12 +9,14 @@ import {getAuth, GoogleAuthProvider} from 'firebase/auth'
 // Your web app's Firebase configuration
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
-  apiKey: "AIzaSyAUO0M5N1ug-Rg2Zgt0h5-_PhmVq_mWSBA",
-  authDomain: "finsight-bfe30.firebaseapp.com",
-  projectId: "finsight-bfe30",
-  storageBucket: "finsight-bfe30.appspot.com",
-  messagingSenderId: "781619824642",
-  appId: "1:781619824642:web:dadab81b7864d71e397f1b"
+  apiKey: "AIzaSyDppCHmx7-K3GyFuw66bADC3jQOPM4PALY",
+  authDomain: "femi-s-blog.firebaseapp.com",
+  databaseURL: "https://femi-s-blog-default-rtdb.firebaseio.com",
+  projectId: "femi-s-blog",
+  storageBucket: "femi-s-blog.appspot.com",
+  messagingSenderId: "992937767118",
+  appId: "1:992937767118:web:ee40ff3b1ca746df3c209f",
+  measurementId: "G-LF8QKSE7C8"
 };
 
 // Initialize Firebase

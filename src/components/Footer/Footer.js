@@ -6,7 +6,7 @@ const Footer = () => {
         <div>
             <section className="footer container">
                 <div className="top__footer">
-                    <h1>Finsight</h1>
+                    <h1>Techsight</h1>
                     <ul>
                         <li>Home</li>
                         <li>Blog</li>
@@ -24,8 +24,8 @@ const Footer = () => {
                 </div>
                 <div className="bottom__footer">
                     <div className="foot_text">
-                        <p>Finstreet 118 2561 Fintown</p>
-                        <p>Hello@finsight.com  020 7993 2905</p>
+                        <p>Techstreet 118 2561 Fintown</p>
+                        <p>Hello@techsight.com  +2348121538461</p>
                     </div>
                     <div className="foot_text foot2">
                         <FontAwesomeIcon icon={faEnvelope} />

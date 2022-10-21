@@ -4,6 +4,9 @@ import './CreatePost.css'
 import { db, auth } from '../FirebaseConfig'
 import { addDoc, collection, serverTimestamp } from 'firebase/firestore'
 import { useNavigate } from 'react-router'
+import { Editor } from 'react-draft-wysiwyg';
+// import './testEditor.css'
+import '../../node_modules/react-draft-wysiwyg/dist/react-draft-wysiwyg.css';
 
 function CreatePost({isAuth}) {
     const [title, setTitle] = useState('')
@@ -57,6 +60,17 @@ function CreatePost({isAuth}) {
                         setContent(e.target.value);
                         }} />
                 </div>
+                {/* <div className="form_control">
+                    <label htmlFor="Title">Content:</label>
+                    <Editor
+    wrapperClassName="wrapper-class"
+    editorClassName="editor-class"
+    toolbarClassName="toolbar-class"
+    id="content" onChange={(e)=>{
+        setContent(e.target.value);
+    }}
+    />
+                </div> */}
                 <div className="form_control split_control">
                     <div className="control_one">
                         <label htmlFor="Title">Category:</label>
