@@ -1,0 +1,66 @@
+.login{
+    padding-top: 6rem;
+    text-align: center;
+    /* background: url(../assets/backdrop.svg); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 90vh;
+    z-index: 1;
+    color: #FFF;
+}
+
+.login::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background: #000;
+    opacity: .7;
+    z-index: -1;
+}
+
+.login > h2{
+    margin: 0 auto;
+    width: 8rem;
+    padding-bottom: 0.4rem;
+    border-bottom: 2px solid yellow;
+}
+
+.sign_board{
+    padding: 4rem 2rem;
+    margin: 4rem auto;
+    width: 20rem;
+    border-radius: 4px;
+    background: rgba(255, 255, 255, 0.632);
+    border: 1px solid rgba(128, 128, 128, 0.473);
+    color: #000;
+}
+
+.sign_board p{
+    text-align: center;
+    padding: 1rem;
+}
+
+.sign_board > button{
+    display: flex;
+    padding: 0.5rem 4rem;
+    color: #000;
+    border: 1px solid grey;
+    background: none;
+    border-radius: 50px;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.sign_board > button > img{
+    width: 20px;
+}
+
+@media (max-width: 600px) {
+    .sign_board{
+        width: 80%;
+    }
+}

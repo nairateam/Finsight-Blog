@@ -1,0 +1,13 @@
+.feat__post{
+    display: flex;
+    padding: 2rem 4rem;
+    justify-content: center;
+    gap: 4rem;
+}
+
+@media (max-width: 1050px) {
+    .feat__post{
+        padding: 1rem;
+        flex-direction: column;
+    }
+}

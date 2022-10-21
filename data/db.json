@@ -1,0 +1,72 @@
+{
+    "blogs": [
+        {
+            "id": "1",
+            "Category": "Sport",
+            "Title": "Step By Step Guide To Becoming Great In Your Endeavours",
+            "Author": "Yemi Ajana",
+            "Image": "https://images.pexels.com/photos/3772622/pexels-photo-3772622.jpeg?cs=srgb&dl=pexels-andrea-piacquadio-3772622.jpg&fm=jpg",
+            "Date": "May 23, 2022",
+            "body": "Lorem Ipsun never did it better, but let us see what we have going on our own too, make we kuku ma dey spoil am dey go"
+        },
+        {
+            "id": "2",
+            "Category": "Fashion",
+            "Author": "Folape Mary",
+            "Image": "https://www.pexels.com/photo/man-in-black-suit-wearing-eye-glasses-sitting-on-gray-sofa-using-macbook-3772622",
+            "Date": "May 23, 2022",
+            "Title": "Step By Step Guide To Becoming Great In Your Endeavours",
+            "body": "Lorem Ipsun never did it better, but let us see what we have going on our own too, make we kuku ma dey spoil am dey go"
+        },
+        {
+            "id": "3",
+            "Category": "Lifestyle",
+            "Author": "James Ani",
+            "Image": "https://www.pexels.com/photo/man-in-black-suit-wearing-eye-glasses-sitting-on-gray-sofa-using-macbook-3772622",
+            "Date": "May 23, 2022",
+            "Title": "Step By Step Guide To Becoming Great In Your Endeavours",
+            "body": "Lorem Ipsun never did it better, but let us see what we have going on our own too, make we kuku ma dey spoil am dey go"
+        },
+        {
+            "id": "4",
+            "Category": "Startup",
+            "Title": "Step By Step Guide To Becoming Great In Your Endeavours",
+            "Author": "Chioma Adams",
+            "Image": "https://images.pexels.com/photos/3772622/pexels-photo-3772622.jpeg?cs=srgb&dl=pexels-andrea-piacquadio-3772622.jpg&fm=jpg",
+            "Date": "May 23, 2022",
+            "body": "Lorem Ipsun never did it better, but let us see what we have going on our own too, make we kuku ma dey spoil am dey go"
+        },
+        {
+            "id": "5",
+            "Category": "Economy",
+            "Title": "Step By Step Guide To Becoming Great In Your Endeavours",
+            "Author": "Joe Alake",
+            "Image": "https://images.pexels.com/photos/3772622/pexels-photo-3772622.jpeg?cs=srgb&dl=pexels-andrea-piacquadio-3772622.jpg&fm=jpg",
+            "Date": "May 23, 2022",
+            "body": "Lorem Ipsun never did it better, but let us see what we have going on our own too, make we kuku ma dey spoil am dey go"
+        }
+    ],
+
+    "Authors": [
+        {
+            "id": "1",
+            "Image": "https://images.pexels.com/photos/6205509/pexels-photo-6205509.jpeg",
+            "Author": "James Ani"
+        },
+        {
+            "id": "2",
+            "Image": "https://images.pexels.com/photos/5704849/pexels-photo-5704849.jpeg",
+            "Author": "Tope Farasin"
+        },
+        {
+            "id": "3",
+            "Image": "https://images.pexels.com/photos/7562313/pexels-photo-7562313.jpeg",
+            "Author": "Kenneth Chucks"
+        },
+        {
+            "id": "4",
+            "Image": "https://images.pexels.com/photos/718978/pexels-photo-718978.jpeg",
+            "Author": "Sam Adesaynya"
+        }
+    ]
+}    

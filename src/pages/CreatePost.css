@@ -1,0 +1,115 @@
+.cp{
+    padding-top: 6rem;
+    text-align: center;
+    background: url(../assets/backdrop.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 1;
+    color: #FFF;
+}
+
+.cp::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background: #000;
+    opacity: .7;
+    z-index: -1;
+}
+
+
+.cp > h2{
+    margin: 0 auto;
+    width: 10rem;
+    padding-bottom: 0.4rem;
+    border-bottom: 2px solid yellow;
+}
+
+.form_contain{
+    padding: 2rem;
+    margin: 2rem;
+    background: rgba(0, 0, 0, 0.68);
+    border-radius: 4px;
+}
+
+.form_control{
+    padding: 0.5rem;
+}
+
+.form_control > button{
+    padding: 0.4rem 1rem;
+    background: var(--yellow);
+}
+
+label{
+    display: block;
+    padding: 0.4rem;
+    color: #FFF;
+}
+
+input{
+    width: 90%;
+    height: 2rem;
+    padding: 0.2rem 0.5rem;
+}
+
+#content{
+    width: 90%;
+    height: 8rem;
+    padding: 0.5rem;
+}
+
+/* #category{
+    width: 12rem;
+    height: 1.5rem;
+} */
+
+.split_control{
+    /* width: 90%; */
+    /* display: flex;
+    justify-content: space-around;
+    align-items: flex-start; */
+    gap: 2rem;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.control_two{
+    text-align: center;
+    margin: 0 auto;
+}
+
+.control_two > .wrap_radio{
+    display: flex;
+    justify-content: center;
+    gap: 0.2rem;
+    margin-bottom: 1rem;
+}
+
+.control_two > p{
+    padding-top: 1rem;
+    text-align: center;
+    display: block;
+}
+
+#radio{
+    padding: 0;
+    width: 20px;
+}
+
+@media (max-width: 500px) {
+    .cp{
+        padding: 2rem 1rem;
+        padding-top: 6rem;
+    }
+    .form_contain{
+        padding: 2rem;
+        margin: 2rem 0.5rem;
+        background: rgba(0, 0, 0, 0.68);
+        border-radius: 4px;
+    }
+}
+
