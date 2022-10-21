@@ -19,7 +19,7 @@ const Category = ({category}) => {
         <div className="cat__item">
             <img src={Icon} alt='Icon' />
             <h3>{category}</h3>
-            <p>Get quick hacks and updates about {category} </p>
+            {/* <p>Get quick hacks and updates about {category} </p> */}
         </div>
     )
 }

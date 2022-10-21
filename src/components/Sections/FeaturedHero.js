@@ -7,16 +7,17 @@ import { Link } from 'react-router-dom';
 
 const FeaturedHero = ({blogs}) => {
     const [index, setIndex] = useState(0);
-    const blog = blogs[index];
+    const posts = blogs.filter((blog)=> blog.trend === 'yes');
+    const blog = posts[index];
     const pbg = blog.image;
     const authorr = blog.author;
 
     const checkValue =(number)=>{
-        if (number > blogs.length - 1){
+        if (number > posts.length - 1){
             return 0;
         }
         if (number < 0){
-            return blogs.length - 1;
+            return posts.length - 1;
         }
         return number;
     }

@@ -3,7 +3,7 @@ header{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: 1rem 0rem;
+    padding: 1.5rem 0rem;
     gap: 4rem;
     background: var(--black);
     width: 100%;
@@ -11,8 +11,13 @@ header{
 }
 
 header > a > h1{
+    color: var(--yellow);
+    font-size: 1.2rem;
+}
+
+header > a > h1 > span{
     color: #FFF;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
 }
 
 .navbar{
@@ -43,7 +48,7 @@ header > a > h1{
     color: yellow;
 }
 
-btnss{
+.btnss{
     display: none;
 }
 
@@ -78,13 +83,14 @@ btnss{
         top: 2rem;
     }
 
-    btnss{
+    .btnss{
         padding-top: 5rem;
         display: block;
     }
 
-    btnss > a{
+    .btnss > a{
         color: yellow;
+        padding: 1rem;
     }
 
     .nav_close{

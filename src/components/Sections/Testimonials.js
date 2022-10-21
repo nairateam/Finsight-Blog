@@ -35,8 +35,7 @@ const Testimonials = () => {
                 <div className="mid_testimonial">
                     <p>TESTIMONIALS</p>
                     <h5>What people say about our blog</h5>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-                        sed do eiusmod tempor.</p>
+                    <p>Read people's opinion about Techsight Commuinty.</p>
                 </div>
                 <div className="mid_testimonial">
                     <div className="wrap_it">

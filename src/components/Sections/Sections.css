@@ -74,7 +74,8 @@
 .cat__item{
     padding: 1rem;
     border: 1px solid rgba(128, 128, 128, 0.29);
-    max-width: 12rem;
+    width: 6rem;
+    max-width: 10rem;
 }
 
 .cat__item:hover{
@@ -165,6 +166,7 @@
 @media (max-width: 600px ) {
     .start{
         position: static;
+        display: none;
     }
     .start .inner__start{
         width: 100%;

@@ -16,19 +16,19 @@ const Nav = ({isAuth, signOutUser}) => {
 
     return ( 
         <header>
-            <Link to='/'><h1 className="log">Techsight</h1></Link>
+            <Link to='/'><h1 className="log">{`</>`} <span>Techsight</span></h1></Link>
             <nav ref={navRef} className="navbar">
                 <h2 className="NavTitle">Techsight</h2>
                 <li><Link to="/">Home</Link></li>
-                <li><Link to="/blogs">Blog</Link></li>
+                <li><Link to="/blogs">Blogs</Link></li>
                 <li><Link to="/">About Us</Link></li>
                 <li><Link to="/">Contact Us</Link></li>
-                <btnss>
+                <div className="btnss">
                 {!isAuth ? <Link to='/login'><FontAwesomeIcon icon={faSignIn} /> SIGNIN</Link> : <Link to='/create-post'><FontAwesomeIcon icon={faNoteSticky} /> CreatePost</Link>}
                 {!isAuth ? '' : 
                     <Link onClick={signOutUser}><FontAwesomeIcon icon={faSignOut} /> SignOut</Link>
             }
-                </btnss>
+                </div>
                 <button className='nav_c nav_close' onClick={showMenu}><FontAwesomeIcon icon={faClose} size='1x' /></button>
             </nav>
             <div className="sub_btn">

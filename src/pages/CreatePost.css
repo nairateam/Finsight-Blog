@@ -1,7 +1,7 @@
 .cp{
     padding-top: 6rem;
     text-align: center;
-    background: url(../assets/backdrop.svg);
+    background: url(../assets/backdrop.webp);
     background-repeat: no-repeat;
     background-size: cover;
     z-index: 1;
