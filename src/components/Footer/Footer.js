@@ -6,7 +6,7 @@ const Footer = () => {
         <div>
             <section className="footer container">
                 <div className="top__footer">
-                    <h1>Finsight</h1>
+                    <h1>Techsight</h1>
                     <ul>
                         <li>Home</li>
                         <li>Blog</li>
